@@ -1,0 +1,82 @@
+body {
+  font-family: sans-serif;
+  margin-top: 25px;
+  background-color: #243642;
+}
+
+.container {
+  display: flex;
+  gap: 50px;
+  
+}
+h1{
+  color: #E2F1E7;
+}
+.BoxContainer{
+  width: 400px;
+  height: 600PX;
+  background-color: #629584;
+  text-align: center;
+  margin: 0 auto;
+  padding: 25px;
+  border-radius: 15px;
+
+}
+#input {
+  margin: 0 auto;
+  height: 50px;
+  width: 350px;
+  gap: 50px;
+  border: none;
+  padding: 0 15px;
+  margin-top: 15px; background-color: #E2F1E7;
+  border-radius: 15px;
+  color: rgb(63, 89, 114);
+}
+#posts {
+  width: 400px;
+  
+  margin: 0 auto;
+ 
+
+}
+
+#posts div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.options {
+  display: flex;
+  gap: 25px;
+}
+
+i {
+  cursor: pointer;
+}
+button{
+  width: 100px;
+  height: 30px;
+  border: none;
+  background-color: #387478;
+  border-radius: 10px;
+  color: #E2F1E7;
+}
+p{
+  color: #243642;
+}
+.list{
+  margin: 0 auto;
+  width: 350px;
+  gap: 50px;
+  padding: 0 15px;
+  margin-top: 15px; background-color: #E2F1E7;
+  border-radius: 15px;
+  color: #243642;
+}
+
+#msg {
+  color: rgb(178, 75, 75);
+}
